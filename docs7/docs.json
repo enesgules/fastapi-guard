@@ -1,0 +1,126 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "FastAPI Guard",
+  "colors": {
+    "primary": "#1f3a5f",
+    "light": "#3b6ea5",
+    "dark": "#152840"
+  },
+  "logo": "/images/logo.svg",
+  "favicon": "/images/favicon.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get started",
+        "pages": [
+          "index",
+          "installation"
+        ]
+      },
+      {
+        "group": "Tutorial - User Guide",
+        "pages": [
+          "tutorial/first-steps",
+          "tutorial/integration",
+          "tutorial/websockets",
+          {
+            "group": "IP Management",
+            "pages": [
+              "tutorial/ip-management/banning",
+              "tutorial/ip-management/geolocation",
+              "tutorial/ip-management/cloud-providers",
+              "tutorial/ip-management/rate-limiter"
+            ]
+          },
+          {
+            "group": "Security Decorators",
+            "pages": [
+              "tutorial/decorators/overview",
+              "tutorial/decorators/access-control",
+              "tutorial/decorators/authentication",
+              "tutorial/decorators/rate-limiting",
+              "tutorial/decorators/behavioral",
+              "tutorial/decorators/content-filtering",
+              "tutorial/decorators/advanced"
+            ]
+          },
+          {
+            "group": "Security Features",
+            "pages": [
+              "tutorial/security/penetration-detection",
+              "tutorial/security/http-security-headers",
+              {
+                "group": "Detection Engine",
+                "pages": [
+                  "tutorial/security/detection-engine/overview",
+                  "tutorial/security/detection-engine/architecture",
+                  "tutorial/security/detection-engine/components",
+                  "tutorial/security/detection-engine/configuration",
+                  "tutorial/security/detection-engine/performance-tuning"
+                ]
+              },
+              "tutorial/security/proxy-security",
+              "tutorial/security/custom-patterns",
+              "tutorial/security/monitoring",
+              "tutorial/security/passive-to-active"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "tutorial/configuration/security-config",
+              "tutorial/configuration/cors",
+              "tutorial/configuration/logging",
+              "tutorial/configuration/telemetry"
+            ]
+          },
+          "tutorial/redis-integration/caching",
+          "tutorial/advanced-customizations",
+          "tutorial/examples/example-app"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api/overview",
+          "api/security-middleware",
+          "api/core-architecture",
+          "api/decorators",
+          "api/behavior-manager",
+          "api/redis-manager",
+          "api/ipban-manager",
+          "api/ipinfo-manager",
+          "api/ratelimit-manager",
+          "api/sus-patterns",
+          "api/cloud-manager",
+          "api/security-headers",
+          "api/utilities"
+        ]
+      },
+      {
+        "group": "Examples",
+        "pages": [
+          "tutorial/examples/example-app"
+        ]
+      },
+      {
+        "group": "Release Notes",
+        "pages": [
+          "release-notes"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/Guard-Core/fastapi-guard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Guard-Core/fastapi-guard"
+    }
+  }
+}
